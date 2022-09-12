@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bangers&family=Josefin+Sans&family=Montserrat&family=Open+Sans&family=Roboto&family=Sora&display=swap');
+
+body{
+ font-family: 'Roboto', sans-serif;   
+ text-align: center;
+ display: block; 
+}
+
+#answer{
+    font-size: x-large;
+    color: #60a5fa;
+}
