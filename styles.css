@@ -4,9 +4,54 @@ body{
  font-family: 'Roboto', sans-serif;   
  text-align: center;
  display: block; 
+ background-color: #d9f99d;
+}
+
+h1{
+    padding-top: 4rem;
+    font-weight: bolder;
+    color: #84cc16;
 }
 
 #answer{
     font-size: x-large;
-    color: #60a5fa;
+    color: #84cc16;
+    font-size: xx-large
+    
 }
+
+.container {
+    width: 300px;
+    margin: auto auto;
+  }
+
+label,
+input {  
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+label {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: large;
+  margin: 1rem 0;
+  border-color: black;
+}
+#check {
+    background-color: #65a30d;
+    border: 2px solid ;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    border-color: black;
+  }
