@@ -7,5 +7,5 @@
 - HTML5
 - CSS3
 
-<p> Found out, who's birthday is luckyiest one!</p>
+<p> Find out, who's birthday is luckyiest one!</p>
 =======
