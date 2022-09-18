@@ -16,17 +16,17 @@ answer.innerHTML="No it's not lucky 🤓"
 
 
 function checkBirthDateIsLucky() {
-  const dob = dateOfBirth.value;
-  const sum = calculateSum(dob);      
+  const dob = dateOfBirth.value; //input value
+  const sum = calculateSum(dob);      // pass value to calculateSum
   if(sum && dob)
-  compareValues(sum, luckyNumber.value)
+  compareValues(sum, luckyNumber.value) //pass value to compare
   else
   answer.innerHTML="Please add both value 😾"
 }
 
 
 function calculateSum(dob) {
-  dob = dob.replaceAll("-","");
+  dob = dob.replaceAll("-",""); // replace - with empty space
   console.log(dob)
   let sum = 0;
   for(let i=0;i<dob.length; i++){
@@ -34,7 +34,7 @@ function calculateSum(dob) {
   }
   console.log(sum)
 
-  return sum;
+  return sum; // get sum
 }
 
 check.addEventListener("click", //trigger event
